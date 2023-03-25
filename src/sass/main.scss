@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    // min-height: 1000px;
+}
+
+
+  $primary:                #F8CB2E;
+  $second:              #EE5007;
+  $sectionr:             #f0f8ff;
+  $custom-btn:    #c01f27;
+  $p:                      #717275;
+  $border:                 #7fffd4;
+  $link-hover-color:             #B22727;
+
+
+
+  .thebtnn{
+    background-color: $second;
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.4s;
+    &:hover{
+      background-color:$custom-btn;
+      color: #fff;
+    }
+  }
